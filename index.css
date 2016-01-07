@@ -4,40 +4,37 @@ div{
 }
 
 .header{
-    width:95%;
     height:50px;
 }
 
 #icon{
-    border-radius:5px;
+    border-radius:20px;
     float:right;
+    margin: 7px 21px;
 }
 .logo-zone{
-    height:300px;
+    height:230px;
 }
 
 #logo{
     margin: auto;
-    width:292px;
-    height:100px;
+    width:272px;
+    height:92px;
     display:block;
     bottom:0px;
-    padding:200px 0px 0px 0px;
-}
-
-.search-zone{
-    height:200px;
+    padding:140px 0px 0px 0px;
 }
 
 #search-type{
-    width:700px;
-    height:35px;
+    width:560px;
+    height:26px;
     padding: 5px 5px 5px 5px;
-    border: 1px solid blue;
+    border: 1px solid #bfbfbf;
     margin: auto;
     font-family: Helvetica, Arial, sans-serif;
     display:block;
-    font-size:1.25em;
+    font-size:1.1em;
+    background-size:10px 23px;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat right;
 }
 
@@ -45,11 +42,11 @@ div{
     border: 1px solid #003b3f;
 }
 
-.text-search{
-    height:46px;
-    margin-top:20px;
-    color:#888888;
+#search{
+    margin-top:33px;
+    text-align:center;
 }
+
 .buttons{
     height:40%;
     width: 270px;
