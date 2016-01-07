@@ -3,6 +3,28 @@ div{
     position:relative;
 }
 
+.header > a{
+    float:right;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:13px;
+    margin:15px 15px 0px 0px;
+    color:#444444;
+    display:inline-block;
+    text-decoration: none;
+}
+
+#images:hover, #mail:hover{
+    color:#000000;
+    text-decoration: underline;
+}
+
+.header > div{
+    height:17px;
+    width: 17px;
+    background-color:#777777;
+    float:right;
+    display:inline-block;
+}
 .header{
     height:50px;
 }
@@ -10,7 +32,36 @@ div{
 #icon{
     border-radius:20px;
     float:right;
-    margin: 7px 21px;
+    margin: 7px 21px 0px 0px;
+    display:inline-block;
+}
+
+#circle{
+    height:20px;
+    width:20px;
+    border-radius:20px;
+    margin:13px 19px 0px 0px;
+}
+
+#grid{
+    margin:15px 27px 0px 0px;
+}
+
+#grid:hover, #circle:hover{
+    background-color: #000000;
+}
+
+#images{
+    margin-right:21px;
+}
+
+#john{
+    float:right;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:13px;
+    margin:15px 15px 0px 0px;
+    color:#bdbdbd;
+    display:inline-block;
 }
 .logo-zone{
     height:230px;
@@ -27,7 +78,7 @@ div{
 
 #search-type{
     width:560px;
-    height:26px;
+    height:27px;
     padding: 5px 5px 5px 5px;
     border: 1px solid #bfbfbf;
     margin: auto;
@@ -49,25 +100,35 @@ div{
 
 .buttons{
     height:40%;
-    width: 270px;
     margin: auto;
     display:block;
-    padding-top:25px;
+    padding-top:31px;
+    text-align: center;
 }
 
 #google-search, #lucky{
-    height:40;
+    height:36;
     background-color:#f5f5f5;
-    border-radius: 3px;
-    border: 1px solid #e5e5e5;
-    padding:10px 15px 10px 15px;
+    border-radius: 1px;
+    border: 1px solid #f5f5f5;
+    padding:11px 15px 8px 15px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:700;
-    color:#a0a0a0;
+    color:#858585;
 
 }
 
 #google-search:hover, #lucky:hover{
-    border: 1px solid #a0a0a0;
-    color:#797979;
+    border: 1px solid #e5e5e5;
+    color:#000000;
+}
+
+#google-search{
+    margin-right:2px;
+    padding-right:16px;
+}
+
+#lucky{
+    margin-left:2px;
+    padding-left:16px;
 }
