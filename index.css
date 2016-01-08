@@ -60,11 +60,8 @@ div{
     font-family:Helvetica, Arial, sans-serif;
     font-size:13px;
     margin:15px 15px 0px 0px;
-    color:#bdbdbd;
+    color:#ababab;
     display:inline-block;
-}
-.logo-zone{
-    height:230px;
 }
 
 #logo{
@@ -94,7 +91,7 @@ div{
 }
 
 #search{
-    margin-top:33px;
+    margin-top:31px;
     text-align:center;
 }
 
@@ -131,4 +128,45 @@ div{
 #lucky{
     margin-left:2px;
     padding-left:16px;
+}
+
+
+.footer{
+    margin: 0px auto;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:12px 0px;
+    width:100%;
+    border: 1px solid #dedede;
+    background-color: #f5f5f5;
+}
+
+.footer a {
+    display: inline-block;
+    text-decoration:none;
+    color:#555;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:13px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer-left{
+    float:left;
+    margin-left:31px;
+}
+
+.footer-right{
+    float:right;
+    margin-right:31px;
+}
+
+
+#far-left{
+    float:left;
+    margin-left:29px;
 }
